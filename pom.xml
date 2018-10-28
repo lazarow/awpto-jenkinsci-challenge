@@ -58,5 +58,10 @@ http://maven.apache.org/maven-v4_0_0.xsd">
         <version>3.0.0</version>
       </plugin>
     </plugins>
+		<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.4</version>
+            </plugin>
   </reporting>
 </project>
